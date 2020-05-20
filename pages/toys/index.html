@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="/../common.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="/../../static/images/favicon.ico">
+    <title>Toys / Designe Life Kids</title>
+    <meta name="desciption" content="toys for kids from the company">
+    <meta name="keywords" content="toys">
+  </head>
+  
+  <body>
+    <header class="header-main container-back">
+  <div class="header container">
+    <a class="header__logo" href="/">
+      <picture>
+        <source 
+          media="(max-width: 450px)"
+          srcset="/static/images/logo-mobile_1x.png?1 1x, /static/images/logo-mobile_2x.png?1 2x">
+        <source
+          media="(max-width: 768px)" 
+          srcset="/static/images/logo-tablet_1x.png?1 1x, /static/images/logo-tablet_2x.png?1 2x" >
+        <img
+          srcset="/static/images/logo_1x.png?2 1x, /static/images/logo_2x.png?2 2x"
+          src="/static/images/logo_1x.png?2"
+          class="header__logo-img" 
+          alt="logo">
+      </picture>
+    </a>
+    <nav class="header__nav">
+      <ul class="header__list">
+        <li><a class="header__item" href="/pages/blog/index.html">BLOG</a></li>
+        <li><a class="header__item" href="/pages/catalog/index.html">CATALOG</a></li>
+        <li><a class="header__item" href="/pages/toys/index.html">TOYS</a></li>
+        <li><a class="header__item" href="#">ABOUT US</a></li>
+        <li><a class="header__item" href="/pages/animation/index.html">ANIMATION</a></li>
+        <li><a class="header__item" href="/pages/svg/index.html">SVG</a></li>
+        <li><a class="header__item" href="/pages/svg-animation/index.html">SVG-ANIMATION</a></li>
+        <li><a class="header__item" href="/pages/grid/index.html">GRID</a></li>
+      </ul>
+      <button class="header__button-mobile header__button-mobile_js">MENU</button>
+      <ul class="header__links">
+        <li><a class="header__search" href="#"><img src="/static/images/search.svg" alt="Search"/></a></li>
+        <li><a class="header__contact" href="/pages/contact-us/index.html">CONTACT US</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <div class="mobile-header">
+    <div class="mobile-header__content">
+    
+      <div class="mobile-header__cap">
+        <a class="mobile-header__logo" href="/">
+          <img class="mobile-header__logo-img" src="/static/images/logo-mobile_1x.png" alt="logo">
+        </a>
+        <button class="mobile-header__close mobile-header__close_js" type="button" value="closed"></button>
+        <a class="mobile-header__search" href="#"><img src="/static/images/search.svg" alt="Search"/></a>
+      </div>
+      
+      <nav class="mobile-header__nav">
+        <ul class="mobile-header__list">
+          <li><a class="mobile-header__item" href="/pages/blog/index.html">BLOG</a></li>
+          <li><a class="mobile-header__item" href="/pages/catalog/index.html">CATALOG</a></li>
+          <li><a class="mobile-header__item" href="/pages/toys/index.html">TOYS</a></li>
+          <li><a class="mobile-header__item" href="#">ABOUT US</a></li>
+          <li><a class="mobile-header__item" href="/pages/animation/index.html">ANIMATION</a></li>
+          <li><a class="mobile-header__item" href="/pages/svg/index.html">SVG</a></li>
+          <li><a class="mobile-header__item" href="/pages/svg-animation/index.html">SVG-ANIMATION</a></li>
+          <li><a class="mobile-header__item" href="/pages/grid/index.html">GRID</a></li>
+        </ul>
+      </nav>
+      <a class="mobile-header__contact" href="/pages/contact-us/index.html">CONTACT US</a>
+    </div>
+  </div>
+</header>
+
+    <main class="main container-back">
+      <h1 class="title container">TOY FOR KIDS</h1>
+
+
+      <ul class="breadcrumbs container">
+        <li class="breadcrumbs__etem">
+          <a class="breadcrumbs__link" href="/">Home</a>
+        </li>
+        <li class="breadcrumbs__etem">
+          <a class="breadcrumbs__link" href="/../pages/catalog/index.html">Catalog</a>
+        </li>
+        <li class="breadcrumbs__etem">
+          <span class="breadcrumbs__link breadcrumbs__link_current">Toys</span>
+        </li>
+      </ul>
+
+      <div class="selection">
+        <form class="selection__form" action="#" method="POST">
+
+          <fieldset class="range">
+            <span class="range__title">Cost</span>
+            <input class="range__input" id="range-user" type="range" name="cost" min="0" max="500" value="125">
+            <div class="range__0-500">
+              <span>0</span> 
+              <span>500</span>
+            </div>
+          </fieldset>
+      
+          <fieldset class="color"> 
+            <span class="color__title">Color</span>
+            <ul class="color__list">
+              <li class="color__etem">
+                <label class="color__label">
+                  <input class="input hidden" type="checkbox" name="color-black" value="black">
+                  <span class="click click_active"></span>
+                  <span class="text">Black</span> 
+                </label>
+              </li>
+              <li class="color__etem">
+                <label class="color__label">
+                  <input class="input hidden" type="checkbox" name="color-blue" value="blue">
+                  <span class="click"></span>
+                  <span class="text">Blue</span> 
+                </label>
+              </li>
+              <li class="color__etem">
+                <label class="color__label">
+                  <input class="input hidden" type="checkbox" name="color-green" value="green">
+                  <span class="click"></span>
+                  <span class="text">Green</span>
+                </label>
+              </li>
+              <li class="color__etem">
+                <label class="color__label">
+                  <input class="input hidden" type="checkbox" name="color-white" value="white">
+                  <span class="click"></span>
+                  <span class="text">White</span>
+                </label>
+              </li>
+            </ul>
+          </fieldset> 
+
+          <fieldset class="delivery">
+            <span class="delivery__title">Delivery</span>
+            <ul class="delivery__list">
+              <li class="delivery__etem">
+                <label class="delivery__label">
+                  <input class="input hidden" type="radio" name="shipping" value="free">
+                  <span class="clicker"></span>
+                  <span class="text">Free shipping</span>
+                </label>
+              </li>
+              <li class="delivery__etem">
+                <label class="delivery__label">
+                  <input class="input hidden" type="radio" name="shipping" value="fast">
+                  <span class="clicker clicker_active"></span>
+                  <span class="text">Fast shipping</span>
+                </label>
+              </li>
+            </ul>
+          </fieldset>
+
+          <fieldset class="amount">
+            <span class="amount__title">Amount</span>
+            <ul class="amount__list">
+              <li>
+                <label class="amount__label">
+                  <input class="input hidden" type="radio" name="range" value="0-5">
+                  <span class ="value value_active">0-5</span>
+                </label>
+              </li>
+              <li>
+                <label class="amount__label">
+                  <input class="input hidden" type="radio" name="range" value="10-20">
+                  <span class="value">10-20</span>
+                </label>
+              </li>
+              <li>
+                <label class="amount__label">
+                  <input class="input hidden" type="radio" name="range" value="20-50">
+                  <span class="value">20-50</span>
+                </label>
+              </li>
+            </ul>
+          </fieldset>
+          <button class="button button-submit" value="apply" type="submit">APPLY</button>
+
+        </form>
+      </div>
+
+      <section class="goods container">
+        <h2 class="hidden">Goods</h2>
+        <ul class="goods__list">
+          <li class="goods__item">
+            <a href="#" class="goods__link">
+              <picture>
+                <source 
+                  media="(max-width: 375px)"
+                  srcset="/../../static/images/sharkey-mobile_1x.jpg?1 1x, /../../static/images/sharkey-mobile_2x.jpg?1 2x">
+                <source
+                  media="(max-width: 768px)" 
+                  srcset="/../../static/images/sharkey-tablet_1x.jpg?1 1x, /../../static/images/sharkey-tablet_2x.jpg?1 2x" >
+                <img
+                  srcset="/../../static/images/sharkey_1x.jpg?2 1x, /../../static/images/sharkey_2x.jpg?1 2x"
+                  src="/../../static/images/sharkey_1x.jpg?2" 
+                  alt="SHARKY BEAN BAG CHAIR COVER" 
+                  class="goods__link-bg">
+              </picture>
+              
+              <span class="goods__hover">LEAN MORE</span>
+              <span class="goods__link-title">SHARKY BEAN BAG CHAIR COVER</span>
+            </a>
+            <span class="goods__price">&#36;60.00 USD</span>
+          </li>
+          <li class="goods__item">
+            <a href="#" class="goods__link">
+              <picture>
+                <source 
+                  media="(max-width: 375px)"
+                  srcset="/../../static/images/brass-mobile_1x.jpg?1 1x, /../../static/images/brass-mobile_2x.jpg?1 2x">
+                <source
+                  media="(max-width: 768px)" 
+                  srcset="/../../static/images/brass-tablet_1x.jpg?1 1x, /../../static/images/brass-tablet_2x.jpg?1 2x" >
+                <img 
+                  srcset="/../../static/images/brass_1x.jpg?2 1x, /../../static/images/brass_2x.jpg?1 2x"
+                  src="/../../static/images/brass_1x.jpg" 
+                  alt="BRASS DECO FRAMES" 
+                  class="goods__link-bg">
+              </picture>
+              <span class="goods__hover">LEAN MORE</span>
+              <span class="goods__link-title">BRASS DECO FRAMES</span>
+            </a>
+            <span class="goods__price">&#36;66.00 USD</span>
+          </li>
+
+          <li class="goods__item">
+            <a href="#" class="goods__link">
+              <picture>
+                <source 
+                  media="(max-width: 375px)"
+                  srcset="/../../static/images/cibo-mobile_1x.jpg?1 1x, /../../static/images/cibo-mobile_2x.jpg?1 2x">
+                <source
+                  media="(max-width: 768px)" 
+                  srcset="/../../static/images/cibo-tablet_1x.jpg?1 1x, /../../static/images/cibo-tablet_2x.jpg?1 2x" >
+                <img
+                  srcset="/../../static/images/cibo_1x.jpg?2 1x, /../../static/images/cibo_2x.jpg?1 2x"
+                  src="/../../static/images/cibo_1x.jpg?2"
+
+                  alt="CIBO FULL APRON" 
+                  class="goods__link-bg">
+              </picture>
+              <span class="goods__hover">LEAN MORE</span>
+              <span class="goods__link-title">CIBO FULL APRON</span>
+            </a>
+            <span class="goods__price">&#36;66.00 USD</span>
+          </li>
+
+          <li class="goods__item">
+            <a href="#" class="goods__link">
+              <picture>
+                <source 
+                  media="(max-width: 375px)"
+                  srcset="/../../static/images/machine-mobile_1x.jpg?1 1x, /../../static/images/machine-mobile_2x.jpg?1 2x">
+                <source
+                  media="(max-width: 768px)" 
+                  srcset="/../../static/images/machine-tablet_1x.jpg?1 1x, /../../static/images/machine-tablet_2x.jpg?1 2x" >
+                <img
+                  srcset="/../../static/images/machine_1x.jpg?2 1x, /../../static/images/machine_2x.jpg?1 2x"
+                  src="/../../static/images/machine_1x.jpg?2"
+                  alt="GATCHA GATCHA GUMBALL MACHINE" 
+                  class="goods__link-bg">
+              </picture>
+              <span class="goods__hover">LEAN MORE</span>
+              <span class="goods__link-title">GATCHA GATCHA GUMBALL MACHINE</span>
+            </a>
+            <span class="goods__price">&#36;56.00 USD</span>
+          </li>
+          <li class="goods__item">
+            <a href="#" class="goods__link">
+              <picture>
+                <source 
+                  media="(max-width: 375px)"
+                  srcset="/../../static/images/candle-mobile_1x.jpg?1 1x, /../../static/images/candle-mobile_2x.jpg?1 2x">
+                <source
+                  media="(max-width: 768px)" 
+                  srcset="/../../static/images/candle-tablet_1x.jpg?1 1x, /../../static/images/candle-tablet_2x.jpg?1 2x" >
+                <img
+                  srcset="/../../static/images/candle_1x.jpg?2 1x, /../../static/images/candle_2x.jpg?1 2x"
+                  src="/../../static/images/candle_1x.jpg?2"
+                  alt="CHRISTMAS ADVENT SCENTED CANDLE" 
+                  class="goods__link-bg">
+              </picture>
+              <span class="goods__hover">LEAN MORE</span>
+              <span class="goods__link-title">CHRISTMAS ADVENT SCENTED CANDLE</span>
+            </a>
+            <span class="goods__price">&#36;29.00 USD</span>
+          </li>
+          <li class="goods__item">
+            <a href="#" class="goods__link">
+              <picture>
+                <source 
+                  media="(max-width: 375px)"
+                  srcset="/../../static/images/tangle-mobile_1x.jpg?1 1x, /../../static/images/tangle-mobile_2x.jpg?1 2x">
+                <source
+                  media="(max-width: 768px)" 
+                  srcset="/../../static/images/tangle-tablet_1x.jpg?1 1x, /../../static/images/tangle-tablet_2x.jpg?1 2x" >
+                <img
+                  srcset="/../../static/images/tangle_1x.jpg?2 1x, /../../static/images/tangle_2x.jpg?1 2x"
+                  src="/../../static/images/tangle_1x.jpg?2"
+                  alt="TANGLE SPINNING TEA LIGHT" 
+                  class="goods__link-bg">
+              </picture>
+              <span class="goods__hover">LEAN MORE</span>
+              <span class="goods__link-title">TANGLE SPINNING TEA LIGHT</span>
+            </a>
+            <span class="goods__price">&#36;56.00 USD</span>
+          </li>
+        </ul>
+        <div class="pages">
+  <a href="#" class="pages__prev">
+    <span class="prev">
+      <svg class="svg" width="17" height="29" viewBox="0 0 17 29">
+        <path d ="M 0 3 L 11 14 L 0 26 L 3 29 L 17 14 L 3 0 Z"/>
+      </svg>
+    </span>
+  </a>
+
+  <ul class="pages__list">
+    <li>
+      <a href="#" class="pages__link pages__link_active">1</a>
+    </li>
+    <li>
+      <a href="#" class="pages__link">2</a>
+    </li>
+    <li>
+      <a href="#" class="pages__link">3</a>
+    </li>
+    <li>
+      <a href="#" class="pages__link">4</a>
+    </li>
+  </ul>
+
+  <a href="#" class="pages__next">
+    <span class="next">
+      <svg class="svg" width="17" height="29" viewBox="0 0 17 29">
+        <path d ="M 0 3 L 11 14 L 0 26 L 3 29 L 17 14 L 3 0 Z"/>
+      </svg>
+    </span>
+  </a>
+</div>
+
+      </section>
+    </main>
+    <footer class="footer container-back">
+  <div class="footer__connect">
+    <div class="footer__nav">
+      <p class="footer__titles">Navigation</p>
+      <ul class="footer__list">
+        <li><a class="footer__item" href="#">About Us</a></li>
+        <li><a class="footer__item" href="/pages/blog/index.html">Blog</a></li>
+        <li><a class="footer__item" href="#">Design Services</a></li>
+        <li><a class="footer__item" href="#">Featured On</a></li>
+        <li><a class="footer__item" href="#">2018 Holiday Catalog</a></li>
+        <li><a class="footer__item" href="#">Shop By Designer</a></li>
+      </ul>
+    </div>
+
+    <div class="footer__nav">
+      <p class="footer__titles">Customer Information</p>
+      <ul class="footer__list">
+        <li><a class="footer__item" href="/pages/contact-us/index.html">Contact Us</a></li>
+        <li><a class="footer__item" href="#">Sale Exclusion</a></li>
+        <li><a class="footer__item" href="#">Shipping &#38; Returns</a></li>
+        <li><a class="footer__item" href="#">Terms &#38; Conditions</a></li>
+        <li><a class="footer__item" href="#"> Privacy Policy</a></li>
+        <li><a class="footer__item" href="#">Search</a></li>
+      </ul>
+    </div>
+
+    <div class="footer__user">
+      <p class="footer__titles">Connect</p>
+      
+      <form class="email-form" action="URL">
+        <input class="email-form__input" type="email" name="email" placeholder="Email"><!--
+      --><button class="button email-form__button-join" value="join" type="submit">JOIN</button>
+
+      </form>
+
+      <div class="social">
+        <ul class="social__list">
+          <li><a class="social__item" href="#">
+            <img src="/static/images/facebook.svg" alt="Facebook"></a>
+          </li>
+          <li><a class="social__item" href="#">
+            <img src="/static/images/twitter.svg" alt="Twitter"></a>
+          </li>
+          <li><a class="social__item" href="#">
+            <img src="/static/images/pinterest.svg" alt="Pinterest"></a>
+          </li>
+          <li><a class="social__item" href="#">
+            <img src="/static/images/instagram.svg" alt="Instagram"></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer__additional">
+    <div class="success"> 
+      <form class="success__list">
+        <input class="success__input hidden" id="star-5" type="radio" name="rating" value="5">
+        <label class="success__lable" for="star-5" title="Оценка «5»">
+            <svg class="svg" width="17" height="17" viewBox="0 0 17 17">
+              <path d="M 7.5 3 
+              L 6.5 6.2 L 3.3 6.2 
+              C 2 6.2 1 6.2 1.6 7.4
+              L 2.6 8.5 L 5.3 10 L 4.3 13.2
+              C 3.9 14.4 3 17 6 15
+              L 6.5 14.4 L 8.5 12.4 L 10.5 14.4
+              C 12 15.5 12.5 16.3 13.2 14.4
+              L 12.8 13 L 11.8 10 L 14.5 8.5
+              C 15.5 7.7 16.3 6.6 15.1 6.2
+              L 14 6.2 L 10.6 6.2 L 9.6 3.1
+              C 9.2 2 8.5 1.5 8 2
+              Z" />
+            </svg>
+        </label>
+
+        <input class="success__input hidden" id="star-4"  type="radio" name="rating" value="4">
+        <label class="success__lable" for="star-4" title="Оценка «4»">
+          <svg class="svg" width="17" height="17" viewBox="0 0 17 17">
+            <path d="M 7.5 3 
+              L 6.5 6.2 L 3.3 6.2 
+              C 2 6.2 1 6.2 1.6 7.4
+              L 2.6 8.5 L 5.3 10 L 4.3 13.2
+              C 3.9 14.4 3 17 6 15
+              L 6.5 14.4 L 8.5 12.4 L 10.5 14.4
+              C 12 15.5 12.5 16.3 13.2 14.4
+              L 12.8 13 L 11.8 10 L 14.5 8.5
+              C 15.5 7.7 16.3 6.6 15.1 6.2
+              L 14 6.2 L 10.6 6.2 L 9.6 3.1
+              C 9.2 2 8.5 1.5 8 2
+              Z" />
+          </svg>
+        </label>
+
+        <input class="success__input hidden" id="star-3" type="radio" name="rating" value="3">
+        <label class="success__lable" for="star-3" title="Оценка «3»">
+          <svg class="svg" width="17" height="17" viewBox="0 0 17 17">
+            <path d="M 7.5 3 
+              L 6.5 6.2 L 3.3 6.2 
+              C 2 6.2 1 6.2 1.6 7.4
+              L 2.6 8.5 L 5.3 10 L 4.3 13.2
+              C 3.9 14.4 3 17 6 15
+              L 6.5 14.4 L 8.5 12.4 L 10.5 14.4
+              C 12 15.5 12.5 16.3 13.2 14.4
+              L 12.8 13 L 11.8 10 L 14.5 8.5
+              C 15.5 7.7 16.3 6.6 15.1 6.2
+              L 14 6.2 L 10.6 6.2 L 9.6 3.1
+              C 9.2 2 8.5 1.5 8 2
+              Z" />
+          </svg>
+        </label>
+
+        <input class="success__input hidden" id="star-2" type="radio" name="rating" value="2">
+        <label class="success__lable" for="star-2" title="Оценка «2»">
+          <svg class="svg" width="17" height="17" viewBox="0 0 17 17">
+            <path d="M 7.5 3 
+              L 6.5 6.2 L 3.3 6.2 
+              C 2 6.2 1 6.2 1.6 7.4
+              L 2.6 8.5 L 5.3 10 L 4.3 13.2
+              C 3.9 14.4 3 17 6 15
+              L 6.5 14.4 L 8.5 12.4 L 10.5 14.4
+              C 12 15.5 12.5 16.3 13.2 14.4
+              L 12.8 13 L 11.8 10 L 14.5 8.5
+              C 15.5 7.7 16.3 6.6 15.1 6.2
+              L 14 6.2 L 10.6 6.2 L 9.6 3.1
+              C 9.2 2 8.5 1.5 8 2
+              Z" />
+          </svg>
+        </label>
+
+        <input class="success__input hidden" id="star-1" type="radio" name="rating" value="1">
+        <label class="success__lable" for="star-1" title="Оценка «1»">
+          <svg class="svg" width="17" height="17" viewBox="0 0 17 17">
+            <path d="M 7.5 3 
+              L 6.5 6.2 L 3.3 6.2 
+              C 2 6.2 1 6.2 1.6 7.4
+              L 2.6 8.5 L 5.3 10 L 4.3 13.2
+              C 3.9 14.4 3 17 6 15
+              L 6.5 14.4 L 8.5 12.4 L 10.5 14.4
+              C 12 15.5 12.5 16.3 13.2 14.4
+              L 12.8 13 L 11.8 10 L 14.5 8.5
+              C 15.5 7.7 16.3 6.6 15.1 6.2
+              L 14 6.2 L 10.6 6.2 L 9.6 3.1
+              C 9.2 2 8.5 1.5 8 2
+              Z" />
+          </svg>
+        </label>
+
+        <p class="success__title">Company Rating</p>
+      </form>
+    </div> 
+
+    <div class="copyr">
+      <p >Copyright &#169; 2018 Dlk • Design Life Kids</p>
+    </div>
+
+    <div class="web-design">
+      <a class="web-design__link" href="#">Web Design — Direct Line Development</a>
+    </div>
+  </div>
+</footer>
+
+    <script src="index.js"></script>
+  </body>
+</html>
