@@ -43,7 +43,7 @@
       </ul>
       <button class="header__button-mobile header__button-mobile_js">MENU</button>
       <ul class="header__links">
-        <li><a class="header__search" href="#"><img src="/static/images/search.svg" alt="Search"/></a></li>
+        <li><a class="header__search" href="#" title="search"><img src="/static/images/search.svg" alt="Search"/></a></li>
         <li><a class="header__contact" href="/pages/contact-us/index.html">CONTACT US</a></li>
       </ul>
     </nav>
@@ -94,7 +94,19 @@
         <ul class="row flex-wrap">
           <li class="announce__item col-xl-4 col-lg-4 col-md-4 col-sm-6 col-xs-6">
               <a class="announce__link" href="#">
-                <img class="announce__img" src="/../../static/images/top_5.jpg" alt="image of top 5 fastest growing it service companies in philly">
+                <picture>
+                  <source 
+                    media="(max-width: 560px)"
+                    srcset="/../../static/images/top-5-mobile_1x.jpg?1 1x, /../../static/images/top-5-mobile_2x.jpg?1 2x">
+                  <source
+                    media="(max-width: 1060px)" 
+                    srcset="/../../static/images/top-5-tablet_1x.jpg?1 1x, /../../static/images/top-5-tablet_2x.jpg?1 2x" >
+                  <img
+                    srcset="/../../static/images/top-5_1x.jpg?2 1x, /../../static/images/top-5_2x.jpg?1 2x"
+                    src="/../../static/images/top-5_1x.jpg?2"
+                    class="announce__img"
+                    alt="image of top 5 fastest growing it service companies in philly">
+                </picture>
                 <span class="announce__date">23rd August 2018</span> 
                 <h2 class="announce__title">Top 5 fastest growing it service companies in philly</h2>
               </a>
@@ -107,7 +119,19 @@
           </li>
           <li class="announce__item col-xl-4 col-lg-4 col-md-4 col-sm-6 col-xs-6">
             <a class="announce__link" href="#">
-              <img class="announce__img" src="/../../static/images/financial.jpg" alt="image of best financial">
+              <picture>
+                <source 
+                  media="(max-width: 560px)"
+                  srcset="/../../static/images/financial-mobile_1x.jpg?1 1x, /../../static/images/financial-mobile_2x.jpg?1 2x">
+                <source
+                  media="(max-width: 1060px)" 
+                  srcset="/../../static/images/financial-tablet_1x.jpg?1 1x, /../../static/images/financial-tablet_2x.jpg?1 2x" >
+                <img
+                  srcset="/../../static/images/financial_1x.jpg?2 1x, /../../static/images/financial_2x.jpg?1 2x"
+                  src="/../../static/images/financial_1x.jpg?2"
+                  class="announce__img"
+                  alt="image of best financial">
+              </picture>
               <span class="announce__date">23rd August 2018</span> 
               <h2 class="announce__title">Best financial</h2>
             </a>
@@ -118,7 +142,19 @@
           </li>
           <li class="announce__item col-xl-4 col-lg-4 col-md-4 col-sm-6 col-xs-6">
             <a class="announce__link" href="#">
-              <img class="announce__img" src="/../../static/images/company.jpg" alt="image company logo or brand identity: which one is more important? brand identity">
+              <picture>
+                <source 
+                  media="(max-width: 560px)"
+                  srcset="/../../static/images/company-mobile_1x.jpg?1 1x, /../../static/images/company-mobile_2x.jpg?1 2x">
+                <source
+                  media="(max-width: 1060px)" 
+                  srcset="/../../static/images/company-tablet_1x.jpg?1 1x, /../../static/images/company-tablet_2x.jpg?1 2x" >
+                <img
+                  srcset="/../../static/images/company_1x.jpg?2 1x, /../../static/images/company_2x.jpg?1 2x"
+                  src="/../../static/images/company_1x.jpg?2"
+                  class="announce__img"
+                  alt="image company logo or brand identity: which one is more important? brand identity">
+              </picture>
               <span class="announce__date">23rd August 2018</span> 
               <h2 class="announce__title">Company logo or brand identity: which one is more important? brand identity</h2>
             </a>
@@ -129,7 +165,19 @@
           </li>
           <li class="announce__item col-xl-4 col-lg-4 col-md-4 col-sm-6 col-xs-6">
             <a class="announce__link" href="#">
-              <img class="announce__img" src="/../../static/images/best_fin.jpg" alt="image of best financial">
+              <picture>
+                <source 
+                  media="(max-width: 560px)"
+                  srcset="/../../static/images/best_fin-mobile_1x.jpg?1 1x, /../../static/images/best_fin-mobile_2x.jpg?1 2x">
+                <source
+                  media="(max-width: 1060px)" 
+                  srcset="/../../static/images/best_fin-tablet_1x.jpg?1 1x, /../../static/images/best_fin-tablet_2x.jpg?1 2x" >
+                <img
+                  srcset="/../../static/images/best_fin_1x.jpg?2 1x, /../../static/images/best_fin_2x.jpg?1 2x"
+                  src="/../../static/images/best_fin_1x.jpg?2"
+                  class="announce__img"
+                  alt="image of best financial">
+              </picture>
               <span class="announce__date">23rd August 2018</span> 
               <h2 class="announce__title">Best financial</h2>
             </a>
@@ -140,7 +188,19 @@
           </li>
           <li class="announce__item col-xl-4 col-lg-4 col-md-4 col-sm-6 col-xs-6">
             <a class="announce__link" href="#">
-              <img class="announce__img" src="/../../static/images/princess.jpg" alt="image company logo or brand identity: which one is more important? brand identity">
+              <picture>
+                <source 
+                  media="(max-width: 560px)"
+                  srcset="/../../static/images/princess-mobile_1x.jpg?1 1x, /../../static/images/princess-mobile_2x.jpg?1 2x">
+                <source
+                  media="(max-width: 1060px)" 
+                  srcset="/../../static/images/princess-tablet_1x.jpg?1 1x, /../../static/images/princess-tablet_2x.jpg?1 2x" >
+                <img
+                  srcset="/../../static/images/princess_1x.jpg?2 1x, /../../static/images/princess_2x.jpg?1 2x"
+                  src="/../../static/images/princess_1x.jpg?2"
+                  class="announce__img"
+                  alt="image company logo or brand identity: which one is more important? brand identity">
+              </picture>
               <span class="announce__date">23rd August 2018</span> 
               <h2 class="announce__title">Company logo or brand identity: which one is more important? brand identity</h2>
             </a>
@@ -151,7 +211,19 @@
           </li>
           <li class="announce__item col-xl-4 col-lg-4 col-md-4 col-sm-6 col-xs-6">
             <a class="announce__link" href="#">
-              <img class="announce__img" src="/../../static/images/fastes_5.jpg" alt="top 5 fastest growing it service companies in philly">
+              <picture>
+                <source 
+                  media="(max-width: 560px)"
+                  srcset="/../../static/images/serv_comp-mobile_1x.jpg?1 1x, /../../static/images/serv_comp-mobile_2x.jpg?1 2x">
+                <source
+                  media="(max-width: 1060px)" 
+                  srcset="/../../static/images/serv_comp-tablet_1x.jpg?1 1x, /../../static/images/serv_comp-tablet_2x.jpg?1 2x" >
+                <img
+                  srcset="/../../static/images/serv_comp_1x.jpg?2 1x, /../../static/images/serv_comp_2x.jpg?1 2x"
+                  src="/../../static/images/serv_comp_1x.jpg?2"
+                  class="announce__img"
+                  alt="top 5 fastest growing it service companies in philly">
+              </picture>
               <span class="announce__date">23rd August 2018</span> 
               <h2 class="announce__title">Top 5 fastest growing it service companies in philly</h2>
             </a>
@@ -233,28 +305,25 @@
 
       </form>
 
-      <div class="social">
-        <ul class="social__list">
-          <li><a class="social__item" href="#">
+        <ul class="social">
+          <li><a class="social__item" href="https://www.facebook.com/" title="link facebook.com">
             <img src="/../../static/images/Facebook.svg" alt="facebook"></a>
           </li>
-          <li><a class="social__item" href="#">
+          <li><a class="social__item" href="https://twitter.com/" title="link twitter.com">
             <img src="/../../static/images/Twitter.svg" alt="twitter"></a>
           </li>
-          <li><a class="social__item" href="#">
+          <li><a class="social__item" href="https://www.pinterest.ru/" title="link pinterest.ru">
             <img src="/../../static/images/Pinterest.svg" alt="pinterest"></a>
           </li>
-          <li><a class="social__item" href="#">
-            <img src="/../../static/images/Instagram.svg" alt="instagram"></a>
+          <li><a class="social__item" href="https://www.instagram.com/" title="link instagram.com">
+            <img src="/../../static/images/Instagram.svg" alt="instagram" title="link facebook.com"></a>
           </li>
         </ul>
-      </div>
     </div>
   </div>
 
   <div class="footer__additional">
-    <div class="success"> 
-      <form class="success__list">
+      <form class="success">
         <input class="success__input hidden" id="star-5" type="radio" name="rating" value="5">
         <label class="success__lable" for="star-5" title="Оценка «5»">
             <svg class="svg" width="17" height="17" viewBox="0 0 17 17">
@@ -344,18 +413,10 @@
               Z" />
           </svg>
         </label>
-
         <p class="success__title">Company Rating</p>
       </form>
-    </div> 
-
-    <div class="copyr">
-      <p >Copyright &#169; 2018 Dlk • Design Life Kids</p>
-    </div>
-
-    <div class="web-design">
-      <a class="web-design__link" href="#">Web Design — Direct Line Development</a>
-    </div>
+    <p class="copyr" >Copyright &#169; 2018 Dlk • Design Life Kids</p>
+    <a class="web-design" href="#">Web Design — Direct Line Development</a>
   </div>
 </footer>
 

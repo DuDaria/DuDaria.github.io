@@ -43,7 +43,7 @@
       </ul>
       <button class="header__button-mobile header__button-mobile_js">MENU</button>
       <ul class="header__links">
-        <li><a class="header__search" href="#"><img src="/static/images/search.svg" alt="Search"/></a></li>
+        <li><a class="header__search" href="#" title="search"><img src="/static/images/search.svg" alt="Search"/></a></li>
         <li><a class="header__contact" href="/pages/contact-us/index.html">CONTACT US</a></li>
       </ul>
     </nav>
@@ -110,8 +110,8 @@
             <ul class="color__list">
               <li class="color__etem">
                 <label class="color__label">
-                  <input class="input hidden" type="checkbox" name="color-black" value="black">
-                  <span class="click click_active"></span>
+                  <input class="input hidden" type="checkbox" name="color-black" value="black" checked>
+                  <span class="click"></span>
                   <span class="text">Black</span> 
                 </label>
               </li>
@@ -151,8 +151,8 @@
               </li>
               <li class="delivery__etem">
                 <label class="delivery__label">
-                  <input class="input hidden" type="radio" name="shipping" value="fast">
-                  <span class="clicker clicker_active"></span>
+                  <input class="input hidden" type="radio" name="shipping" value="fast" checked>
+                  <span class="clicker"></span>
                   <span class="text">Fast shipping</span>
                 </label>
               </li>
@@ -164,7 +164,7 @@
             <ul class="amount__list">
               <li>
                 <label class="amount__label">
-                  <input class="input hidden" type="radio" name="range" value="0-5">
+                  <input class="input hidden" type="radio" name="range" value="0-5" checked>
                   <span class ="value value_active">0-5</span>
                 </label>
               </li>
@@ -385,28 +385,25 @@
 
       </form>
 
-      <div class="social">
-        <ul class="social__list">
-          <li><a class="social__item" href="#">
+        <ul class="social">
+          <li><a class="social__item" href="https://www.facebook.com/" title="link facebook.com">
             <img src="/../../static/images/Facebook.svg" alt="facebook"></a>
           </li>
-          <li><a class="social__item" href="#">
+          <li><a class="social__item" href="https://twitter.com/" title="link twitter.com">
             <img src="/../../static/images/Twitter.svg" alt="twitter"></a>
           </li>
-          <li><a class="social__item" href="#">
+          <li><a class="social__item" href="https://www.pinterest.ru/" title="link pinterest.ru">
             <img src="/../../static/images/Pinterest.svg" alt="pinterest"></a>
           </li>
-          <li><a class="social__item" href="#">
-            <img src="/../../static/images/Instagram.svg" alt="instagram"></a>
+          <li><a class="social__item" href="https://www.instagram.com/" title="link instagram.com">
+            <img src="/../../static/images/Instagram.svg" alt="instagram" title="link facebook.com"></a>
           </li>
         </ul>
-      </div>
     </div>
   </div>
 
   <div class="footer__additional">
-    <div class="success"> 
-      <form class="success__list">
+      <form class="success">
         <input class="success__input hidden" id="star-5" type="radio" name="rating" value="5">
         <label class="success__lable" for="star-5" title="Оценка «5»">
             <svg class="svg" width="17" height="17" viewBox="0 0 17 17">
@@ -496,18 +493,10 @@
               Z" />
           </svg>
         </label>
-
         <p class="success__title">Company Rating</p>
       </form>
-    </div> 
-
-    <div class="copyr">
-      <p >Copyright &#169; 2018 Dlk • Design Life Kids</p>
-    </div>
-
-    <div class="web-design">
-      <a class="web-design__link" href="#">Web Design — Direct Line Development</a>
-    </div>
+    <p class="copyr" >Copyright &#169; 2018 Dlk • Design Life Kids</p>
+    <a class="web-design" href="#">Web Design — Direct Line Development</a>
   </div>
 </footer>
 
